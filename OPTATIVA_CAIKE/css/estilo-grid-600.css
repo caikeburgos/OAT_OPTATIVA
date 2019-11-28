@@ -1,0 +1,77 @@
+body,html{
+	height: 100%;
+	background-color: #CDC9C9;
+	background-image: url("../img/img.jpg");
+	background-size: 100%;
+}
+
+#header{
+	height: 20%;
+	border: 1px solid #000;
+	margin: 3px;
+	color: #2d3444;
+	background-color: #ebdaa6;
+
+}
+
+#menu{
+	border: 1px solid #000;
+	height: 7%;
+	margin: 3px;
+	background-color: #ebdaa6;
+}
+
+#menu a{
+	color: #2d3444;
+}
+
+#menu ul{
+	display: block;
+}
+
+#menu ul li{
+	border: 1px solid blue;
+	margin: 10px;
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	padding: 3px 5% 3px;
+	background-color: #ebdaa6;
+}
+
+#main #content{
+	border: 1px solid #000;
+	background-color: #2d3444;
+	color: #ebdaa6;
+}
+
+#main #content a{
+	color: #ebdaa6;
+}
+
+#formulario{
+ 	color: white;
+}
+
+#formulario label{
+ 	display: block;
+}
+
+
+#table tr, td{
+	border: 2px solid #000;
+
+}
+
+.table {
+    width: 50% !important;
+    margin: auto;
+}
+
+#footer{
+	border: 1px solid #000;
+	color: #2d3444;
+	background-color: #ebdaa6;
+}

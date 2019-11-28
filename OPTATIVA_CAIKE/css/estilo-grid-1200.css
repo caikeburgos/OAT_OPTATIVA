@@ -1,0 +1,79 @@
+body,html{
+	height: 100%;
+	background-image: url("http://www.receitasnestle.com.br/images/default-source/recipes/pao_doce_com_goiabada.jpg");
+	background-size: 100%;
+}
+
+#header{
+	text-align: center;
+	height: 20%;
+	border: 1px solid #000;
+	margin: 3px;
+	background-color: #2d3444;
+	color: #ebdaa6;
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-column-gap: 1%;
+	margin: 3px;
+	text-align: center;
+	padding: 5px 7% 5px;
+	background-color: #2d3444;
+}
+
+#main #content{
+	border: 1px solid #000;
+	margin: 3px;
+	background-color: #ebdaa6;
+	color: #2d3444;
+}
+
+#menu{
+	height: 7%;
+	border: 1px solid #000;
+	margin: 3px;
+	color: #ebdaa6;
+	background-color: #2d3444;
+}
+
+#menu ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+#menu a{
+	color: #ebdaa6;
+}
+
+#menu ul li{
+	border: 1px solid #000;
+	margin: 3px;
+	padding: 5px;
+}
+ #formulario{
+ 	color: #2F4F4F;
+}
+
+
+#formulario label{
+ 	display: block;
+}
+
+
+#table tr, td{
+	border: 2px solid #000;
+
+}
+
+.table {
+    width: 50% !important;
+    margin: auto;
+}
+
+#footer{
+	border: 1px solid #000;
+	background-color: #2d3444;
+	color: #ebdaa6;
+}
